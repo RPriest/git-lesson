@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Unit sold</th>
+                <th>Total Revenue</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop</td>
+                <td>Electronics</td>
+                <td>100</td>
+                <td>$123</td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2">Accessories(charger & cord)</td>
+                <td>234</td>
+                <td>$123</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Revenue</td>
+                <td>$12445</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+         border-collapse: collapse;
+        }
+        th {
+            background-color: blueviolet;
+        }
+        th,td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <h2>Products Sales Report</h2>
+        <thead>
+            <caption>monthly sales</caption>
+            <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Units Sold</th>
+                <th>Total Revenue</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop</td>
+                <td>Electronics</td>
+                <td>100</td>
+                <td>$30000</td>
+            </tr>
+            <tr>
+                <td colspan="2">Acessories (Charger & Cord)</td>
+                <td>50</td>
+                <td>$120</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Revenue</td>
+                <td>$50,000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
